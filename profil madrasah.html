@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="id">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
+  <title>Profil MA Miftahul Huda Dongos</title>
+  <style>/* ========== NAVBAR ========== */
+.navbar{
+  position:fixed;
+  top:0; left:0;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 24px;
+  background:rgba(15,118,110,0.9); /* warna hijau madrasah */
+  backdrop-filter:blur(6px);
+  z-index:999;
+  color:white;
+}
+
+.navbar .brand {
+  font-weight:700;
+  font-size:18px;
+}
+
+.navbar ul{
+  margin:0; padding:0;
+  list-style:none;
+  display:flex;
+  gap:18px;
+}
+
+.navbar a{
+  color:white;
+  text-decoration:none;
+  font-weight:500;
+  padding:6px 8px;
+}
+
+.navbar a:hover{
+  background:rgba(255,255,255,0.2);
+  border-radius:6px;
+}
+
+/* biar konten tidak ketutup navbar */
+body{
+  padding-top:70px;
+}
+.image-row{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.image-row img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid rgba(15,23,42,0.08);
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(2,6,23,0.05);
+}
+
+    :root{--accent:#0f766e;--muted:#6b7280;--card:#baf0d2;--bg:#f8fafc}
+    *{box-sizing:border-box}
+
+    /* ====== BACKGROUND GUNUNG DITAMBAHKAN DI SINI ====== */
+    body{
+      font-family:"hobo std";
+      line-height:1.6;
+      margin:0;
+      color:#0f172a;
+
+      background-image: url("madrasah.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    /* ==================================================== */
+
+    .container{
+      max-width:1100px;
+      margin:28px auto;
+      padding:20px;
+
+      /* Tambahkan background putih transparan agar teks tetap mudah dibaca */
+      background:rgba(255,255,255,0.85);
+      border-radius: 12px;
+    }
+
+    header{display:flex;gap:16px;align-items:center}
+    .logo{width:76px;height:76px;border-radius:12px;overflow:hidden;flex:0 0 76px;background:#fff;display:grid;place-items:center;border:1px solid rgba(15,23,42,.06)}
+    .logo img{width:100%;height:100%;object-fit:cover}
+    .brand h1{margin:0;font-size:20px}
+    .brand p{margin:4px 0 0;color:var(--muted);font-size:14px}
+
+    .hero{margin-top:18px;border-radius:12px;overflow:hidden;display:grid;grid-template-columns:1fr 360px;gap:16px}
+    .hero .lead{padding:28px;background:linear-gradient(90deg,rgba(15,118,110,0.06),rgba(255,255,255,0));}
+    .hero h2{margin:0 0 8px}
+    .hero p{margin:0;color:var(--muted)}
+    .hero .photo{height:220px;background:#e7f0e6;border-radius:8px;overflow:hidden}
+    .hero .photo img{width:100%;height:100%;object-fit:cover}
+
+    main{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 1px 2px rgba(2,6,23,.04);border:1px solid rgba(15,23,42,.03)}
+    .card h3{margin:0 0 12px}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    table{width:100%;border-collapse:collapse}
+    td,th{padding:8px;border-bottom:1px dashed #3ac517;text-align:left}
+    th{background:transparent;color:var(--muted);font-weight:600}
+    ul{padding-left:18px;margin:0}
+    .grid-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .facility{padding:12px;border-radius:10px;background:#09a84c;border:1px solid rgba(15,23,42,.03)}
+    .staff-table{width:100%;border-collapse:collapse}
+    .staff-table th,.staff-table td{padding:10px;border:1px solid #eef2f7}
+
+    footer{margin-top:20px;padding:12px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:880px){
+      .hero{grid-template-columns:1fr}
+      .hero .photo{height:180px}
+      .two-col{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+  <div class="brand">MA MIFTAHUL HUDA DONGOS</div>
+  <ul>
+    <li><a href="#visi-misi">Visi & Misi</a></li>
+    <li><a href="#identitas">Identitas</a></li>
+    <li><a href="#latar">Sejarah</a></li>
+    <li><a href="#struktur">Struktur</a></li>
+    <li><a href="#sarana">Sarana</a></li>
+    <li><a href="#galeri">Galeri Foto</a></li>
+    <li><a href="#tenaga">Guru & TU</a></li>
+     <li><a href="#video">Video</a></li>
+  </ul>
+</nav>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo MA Miftahul Huda Dongos" />
+      </div>
+      <div class="brand">
+        <h1>MA MIFTAHUL HUDA DONGOS</h1>
+        <p>Madrasah Aliyah — Dongos, Kedung Jepara)</p>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="lead card">
+        <h2>Selamat datang di Profil</h2>
+        <p>Halaman ini menyajikan informasi resmi mengenai visi dan misi, identitas, sejarah, struktur organisasi, sarana prasarana, serta tenaga kependidikan di MA Miftahul Huda Dongos.</p>
+        <hr style="margin:12px 0" />
+        <strong>Alamat:</strong>
+        <p class="muted" style="margin:6px 0 0;color:var(--muted)">Jl. Raya Dongos No. 123, Kecamatan Kedung — Kabupaten Jepara</p>
+      </div>
+      <div class="photo card">
+        <!-- Ganti path gambar madrasah di assets/madrasah.jpg -->
+        <img src="images/new.jpeg" alt="Foto gedung MA Miftahul Huda Dongos" />
+      </div>
+    </section>
+
+    <main>
+      <!-- 1. Visi & Misi -->
+      <article class="card" id="visi-misi">
+        <h3>1. Visi &amp; Misi</h3>
+        <h4>Visi</h4>
+        <p>"Terwujudnya generasi muslim cerdas, berakhlak mulia, berwawasan ilmu pengetahuan dan siap bersaing secara lokal maupun global."</p>
+        <h4>Misi</h4>
+        <ol>
+          <li>Menyelenggarakan pendidikan agama dan umum yang berkualitas.</li>
+          <li>Membentuk peserta didik berakhlaq mulia melalui pembiasaan nilai-nilai Islam.</li>
+          <li>Meningkatkan kompetensi tenaga pendidik dan kependidikan.</li>
+          <li>Mengoptimalkan sarana prasarana serta kerja sama dengan masyarakat dan stakeholders.</li>
+        </ol>
+      </article>
+
+      <!-- 2. Identitas Madrasah -->
+      <article class="card" id="identitas">
+        <h3>2. Identitas Madrasah</h3>
+        <table>
+          <tr><th>Nama Madrasah</th><td>Madrasah Aliyah Miftahul Huda Dongos</td></tr>
+          <tr><th>NPSN</th><td>1234567</td></tr>
+          <tr><th>Status</th><td>Swasta</td></tr>
+          <tr><th>Alamat</th><td>Jl. Raya Dongos No. 123, Desa Dongos</td></tr>
+          <tr><th>Kecamatan</th><td>kedung</td></tr>
+          <tr><th>Kabupaten/Kota</th><td>jepara</td></tr>
+          <tr><th>Provinsi</th><td>Jawa Tengah</td></tr>
+          <tr><th>Jenjang</th><td>Madrasah Aliyah (MA)</td></tr>
+          <tr><th>Akreditasi</th><td>B</td></tr>
+          <tr><th>Kepala Madrasah</th><td>H. Tugi</td></tr>
+          <tr><th>Telepon / Email</th><td>0812-654675 / ma.mifda.dongos@gmail.com.</td></tr>
+        </table>
+      </article>
+
+      <!-- 3. Latar Belakang Historis -->
+      <article class="card" id="latar">
+        <h3>3. Latar Belakang Historis</h3>
+        <p>MA Miftahul Huda Dongos didirikan pada tahun 2007 oleh tokoh masyarakat setempat dengan tujuan meningkatkan kualitas pendidikan agama dan umum di wilayah pesisir. Sejak awal, madrasah berkembang selaras dengan kebutuhan komunitas yang mayoritas bekerja sebagai pengrajin furniture dan industri rumah tangga (keripik singkong), sehingga program pembelajaran turut menekankan keterampilan kewirausahaan dan kearifan lokal Jawa pesisir.</p>
+        <p>Perkembangan penting: pendirian gedung utama 2008, , dan akreditasi terakhir tahun 2012.</p>
+      </article>
+
+      <!-- 4. Struktur Madrasah -->
+      <article class="card" id="struktur">
+        <h3>4. Struktur Organisasi</h3>
+        <div class="two-col">
+          <div>
+            <p>Susunan organisasi di MA Miftahul Huda Dongos:</p>
+            <ul>
+              <li>Kepala Madrasah</li>
+              <li>Wakil Kepala Kurikulum</li>
+              <li>Wakil Kepala Kesiswaan</li>
+              <li>Wakil Kepala Sarana &amp; Prasarana</li>
+              <li>Bendahara</li>
+              <li>Koordinator Program Keagamaan</li>
+              <li>Koordinator Kesiswaan</li>
+            </ul>
+          </div>
+          <div>
+            <p>STRUKTUR ORGANISASI MADRASAH:</p>
+            <div style="padding:12px;border-radius:8px;background:#fff;border:1px solid #eef2f7">
+              <center><strong>Kepala Madrasah</strong></center>
+              <div style="margin-top:10px;display:grid;grid-template-columns:repeat(2,1fr);gap:8px">
+                <div style="padding:8px;border-radius:6px;background:hsl(210, 44%, 56%)">Wakil Kurikulum</div>
+                <div style="padding:8px;border-radius:6px;background:#668bb1">Wakil Kesiswaan</div>
+                <div style="padding:8px;border-radius:6px;background:#648aaf">Wakil Sarpras</div>
+                <div style="padding:8px;border-radius:6px;background:#5989b9">Bendahara</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 5. Sarana Prasarana -->
+      <article class="card" id="sarana">
+        <h3>5. Sarana &amp; Prasarana</h3>
+        <div class="grid-cards">
+          <div class="facility">
+            <h4>Ruang Kelas</h4>
+            <p>12 ruang kelas representatif dengan meja, kursi dan papan tulis.</p>
+            <small>Kap. tiap ruang: 30 siswa</small>
+          </div>
+          <div class="facility">
+            <h4>Perpustakaan</h4>
+            <p>Perpustakaan mini dengan koleksi buku pelajaran, agama, dan referensi umum.</p>
+          </div>
+          <div class="facility">
+            <h4>Laboratorium</h4>
+            <p>Lab komputer (10 unit) &amp; lab IPA sederhana untuk praktik.</p>
+          </div>
+          <div class="facility">
+            <h4>Asrama / Aula</h4>
+            <p>Aula serbaguna untuk kegiatan ekstrakurikuler dan rapat.</p>
+          </div>
+          <div class="facility">
+            <h4>Masjid/Musholla</h4>
+            <p>Untuk kegiatan ibadah dan pengajian rutin.</p>
+          </div>
+          <div class="facility">
+            <h4>Sarana Olahraga</h4>
+            <p>Lapangan terbuka untuk sepakbola, voli, dan aktivitas fisik lainnya.</p>
+          </div>
+        </div>
+      </article>
+
+
+<article class="card" id="galeri">
+  <h3>6. Galeri Foto</h3>
+
+  <div class="image-row">
+    <img src="images/1 (1).jpeg" alt="Kegiatan 1">
+    <img src="images/1 (2).jpeg" alt="Kegiatan 2">
+    <img src="images/1 (3).jpeg" alt="Kegiatan 3">
+    <img src="images/1 (4).jpeg" alt="Kegiatan 4">
+  </div>
+</article>
+      <!-- 7. Tenaga Kependidikan -->
+      <article class="card" id="tenaga">
+        <h3>7. Tenaga Kependidikan</h3>
+        <p>Daftar ringkas tenaga kependidikan:</p>
+        <table class="staff-table">
+          <thead>
+            <tr><th>No</th><th>Nama</th><th>Jabatan</th><th>Kualifikasi</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>H. Tugi, S.Pd.I<td>Kepala Madrasah</td><td>S1 Tarbiyah</td></tr>
+            <tr><td>2</td><td>Fahrudin</td><td>Wakil Kurikulum / Guru Bahasa Inggris</td><td>S1 Bahasa Inggris</td></tr>
+            <tr><td>3</td><td>Sholikul Hadi</td><td>Guru Bahasa Indonesia</td><td>S1 Pendidikan</td></tr>
+            <tr><td>4</td><td>Fathul Wahab</td><td>Guru Agama</td><td>S1 Pendidikan Agama</td></tr>
+            <tr><td>5</td><td>M. Sofwan</td><td>Tata Usaha</td><td>Diploma Administrasi</td></tr>
+          </tbody>
+        </table>
+        <p style="margin-top:10px;color:var(--muted)"><small>Catatan: Silakan sesuaikan daftar tenaga kependidikan dan kualifikasi dengan data riil madrasah.</small></p>
+      </article>
+      
+      <style>
+    /* responsive video: menjaga rasio 16:9 */
+    .video-wrapper {
+      max-width: 900px;
+      margin: 1rem auto;
+    }
+    video {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+  </style>
+  </head>
+<body>
+  <div class="video-wrapper" id="video">
+    <video controls poster="poster.jpg" preload="metadata">
+      <!-- tambahkan beberapa format utk kompatibilitas browser -->
+      <source src="images/video.mp4" type="video/mp4">
+      <!-- subtitle/closed captions -->
+      <track kind="captions" srclang="id" label="Bahasa Indonesia" src="subs.vtt" default>
+      <!-- fallback -->
+      Browser Anda tidak mendukung elemen video. <a href="video.mp4">Download video</a>.
+    </video>
+  </div>
+</body>
+    </main>
+
+    <footer>
+      &copy; <span id="year"></span> MA Miftahul Huda Dongos — Semua hak dilindungi
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
